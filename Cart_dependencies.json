@@ -1,0 +1,24 @@
+{
+    "file_to_check": {
+        "file_name": "Cart",
+        "file_path": "C:\\Users\\LENOVO\\Desktop\\java_flask_app\\java_rep_check_flask\\test\\E-commerce-project-springBoot\\JtProject\\src\\main\\java\\com\\jtspringproject\\JtSpringProject\\models\\Cart.java"
+    },
+    "dependencies": [
+        {
+            "file_name": "UserController",
+            "file_path": "C:\\Users\\LENOVO\\Desktop\\java_flask_app\\java_rep_check_flask\\test\\E-commerce-project-springBoot\\JtProject\\src\\main\\java\\com\\jtspringproject\\JtSpringProject\\controller\\UserController.java"
+        },
+        {
+            "file_name": "cartDao",
+            "file_path": "C:\\Users\\LENOVO\\Desktop\\java_flask_app\\java_rep_check_flask\\test\\E-commerce-project-springBoot\\JtProject\\src\\main\\java\\com\\jtspringproject\\JtSpringProject\\dao\\cartDao.java"
+        },
+        {
+            "file_name": "cartProductDao",
+            "file_path": "C:\\Users\\LENOVO\\Desktop\\java_flask_app\\java_rep_check_flask\\test\\E-commerce-project-springBoot\\JtProject\\src\\main\\java\\com\\jtspringproject\\JtSpringProject\\dao\\cartProductDao.java"
+        },
+        {
+            "file_name": "cartService",
+            "file_path": "C:\\Users\\LENOVO\\Desktop\\java_flask_app\\java_rep_check_flask\\test\\E-commerce-project-springBoot\\JtProject\\src\\main\\java\\com\\jtspringproject\\JtSpringProject\\services\\cartService.java"
+        }
+    ]
+}
