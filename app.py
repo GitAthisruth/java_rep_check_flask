@@ -4,7 +4,7 @@ import json
 
 app = Flask(__name__)
 
-folder_path = "C:\\Users\\LENOVO\\Desktop\\flask_app_for_dep\\flask_app_for_dep_checker\\test\\importlab"
+folder_path = "C:\\Users\\LENOVO\\Desktop\\java_flask_app\\java_rep_check_flask\\test\\E-commerce-project-springBoot"
 
 @app.route('/')
 def home():
@@ -20,9 +20,8 @@ def upload_filename():
        
         result = dependency_check(filename, folder_path)
 
-        if isinstance(result, str):
+        if isinstance(result, str) and result:
             result = json.loads(result)
-            
         return jsonify({'message': 'Dependency check completed', 'result': result}), 200
     except Exception as e:
         return jsonify({'error': str(e)}), 500
