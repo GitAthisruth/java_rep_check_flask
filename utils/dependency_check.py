@@ -5,7 +5,7 @@ import json
 import os
 
 
-def dep_check_for_java(folder_path,file_to_check):
+def dependency_check(folder_path,file_to_check):
     file_inform = []
     folder_inform = []
     all_files = []
