@@ -1,6 +1,6 @@
-from dep_file_search import dep_search
-from get_file_imports import get_imports
-from content_reader import content_reader
+from utils.dep_file_search import dep_search
+from utils.get_file_imports import get_imports
+from utils.content_reader import content_reader
 import json
 import os
 from glob import glob
