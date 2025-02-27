@@ -18,7 +18,7 @@ def upload_filename():
         else:
             filename = request.form.get('filename')
        
-        result = dependency_check(filename, folder_path)
+        result = dependency_check(folder_path,filename)
 
         if isinstance(result, str) and result:
             result = json.loads(result)
